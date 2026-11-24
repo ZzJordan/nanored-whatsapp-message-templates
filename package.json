@@ -1,0 +1,39 @@
+{
+  "name": "nanored-whatsapp-message-templates",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "63 ready-to-copy WhatsApp message templates for businesses in Spanish, English and French (appointment reminders, quotes, reviews, payments...). Also as JSON/Markdown.",
+  "license": "MIT",
+  "author": "NanoRed Labs (https://nanoredlabs.com)",
+  "homepage": "https://nanoredlabs.com/herramientas/plantillas-mensajes-whatsapp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZzJordan/nanored-whatsapp-message-templates.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest run",
+    "lint": "tsc --noEmit",
+    "preview": "vite preview",
+    "export:data": "vite-node scripts/export-data.ts"
+  },
+  "dependencies": {
+    "lucide-react": "^1.78.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "tailwindcss": "^4.3.5",
+    "typescript": "5.7.3",
+    "vite": "^8.3.8",
+    "vite-node": "^6.0.0",
+    "vitest": "^5.1.1"
+  }
+}
